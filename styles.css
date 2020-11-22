@@ -291,6 +291,11 @@ body {
   max-width: 41.666667%;
 }
 
+#projectList .content .content-text a {
+  color: #fff;
+  text-decoration: none;
+}
+
 #Contact .contact-group {
   display: flex;
   -webkit-box-orient: horizontal;
@@ -337,5 +342,4 @@ body {
 #Contact .contact-group .contact-item .contact-body a {
   color: #fff;
   text-decoration: none;
-  background-color: transparent;
 }

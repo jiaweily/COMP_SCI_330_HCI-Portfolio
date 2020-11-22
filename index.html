@@ -10,7 +10,7 @@
 <body>
   <div id="app">
     <!-- Navigation bar -->
-    <navbar id="navbar">
+    <navbar id="navbar" role="Navigation" aria-label="Navigation menu">
       <a class="navbar-logo" href="index.html" aria-label="Link to home page">
         <img id="logo" src="./assets/logo_white.png" alt="Logo of website">
       </a>
@@ -37,8 +37,8 @@
     </navbar>
 
     <!-- Banner -->
-    <div class="banner" id="image-bg">
-      <div id="landing-page">
+    <div class="banner" id="image-bg" role="landing page">
+      <div id="landing-page" aria-label="Banner picture for landing page">
         <h1>Jiawei Lyu</h1>
         <h4>Master Student / Software Development Engineer</h4>
       </div>
@@ -51,7 +51,7 @@
         <br>
         <div class="content">
           <div class="introduction margin-center center-body">
-            <p>
+            <p role="description" aria-label="Self description">
               I'm a master student from Northwestern University and also an incoming Software Development Engineer of Amazon Web Service. I've been programming since 2015 and passionate in Java and Python. I also pick up web development skills during my later university life.
             </p>
           </div>
@@ -63,7 +63,7 @@
     <div class="dark-background screen-height" id="Experience">
       <div class="container text-center">
         <span class="section-title">Experience & Education</span>
-        <p class="section-subtitle">
+        <p class="section-subtitle" role="experience content" aria-label="Experience and education">
           <section class="tl-container" id="timeline">
           </section>
         </p>
@@ -74,7 +74,7 @@
     <div class="light-background screen-height" id="Projects">
       <div class="container text-center">
         <span class="section-title">Projects</span>
-        <p class="section-subtitle"></p>
+        <p class="section-subtitle" role="proeject content" aria-label="Projects in school"></p>
         <section id="projectList"></section>
       </div>
     </div>
@@ -91,18 +91,21 @@
             <img class="contact-img" src="./assets/linkedIn.png" alt="image of linkedin">
             <div class="contact-body">
               <p class="contact-text">My detailed experience and education.</p>
-              <button class="button">
-                <a href="https://www.linkedin.com/in/jiaweilyu/">LinkedIn</a>
-              </button>
+              <a class="button" href="https://www.linkedin.com/in/jiaweilyu/">LinkedIn</a>
             </div>
           </div>
           <div class="contact-item">
             <img class="contact-img" src="./assets/github.png" alt="image of github">
             <div class="contact-body">
-              <p class="contact-text">My personal repository storing some of my projects.</p>
-              <button class="button">
-                <a href="https://github.com/ljw9609">Github</a>
-              </button>
+              <p class="contact-text">Personal projects repository.</p>
+              <a class="button" href="https://github.com/ljw9609">Github</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <img class="contact-img" src="./assets/northwestern.png" alt="image of email">
+            <div class="contact-body">
+              <p class="contact-text">Or email me directly.</p>
+              <a class="button" href="mailto:jiawei.lyu@u.northwestern.edu">Email</a>
             </div>
           </div>
         </div>

@@ -30,13 +30,15 @@ var data = {
       "name": "Sentiment Analysis",
       "description": "Sentiment analysis based on Sina Weibo dataset, using machine learning algorithms to train the model. Algorithms include Naive Bayes and SVM.",
       "techniques": "Techniques used: Python, Machine Learning",
-      "cover": "sentiment-analysis.png"
+      "cover": "sentiment-analysis.png",
+      "link": "https://github.com/ljw9609/SentimentAnalysis"
     }, {
       "id": 1,
       "name": "Distributed Commodities Trading System",
       "description": "A distributed commodities trading system that simulates large-scaled, real-time and secured commodities trading.",
       "techniques": "Techniques used: Java, SpringBoot, GoLang",
-      "cover": "trading.jpg"
+      "cover": "trading.jpg",
+      "link": "https://github.com/project-matthiola"
     }]
   }
 };
@@ -80,7 +82,7 @@ function createProjects(selector) {
         <h3>${item.name}</h3>
         <p>${item.description}</p>
         <p>${item.techniques}</p>
-        <button class='button'>View Project</button>
+        <a class='button' href='${item.link}'>View Project</a>
        </div>`;
       
       let div = document.createElement("div");
