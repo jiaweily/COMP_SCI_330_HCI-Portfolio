@@ -139,7 +139,7 @@ body {
   position: relative;
   overflow: hidden;
   background-color: black;
-  height: 98vh;
+  height: 80vh;
   padding: 4rem 2rem;
   margin-bottom: 0px;
 }
@@ -342,4 +342,12 @@ body {
 #Contact .contact-group .contact-item .contact-body a {
   color: #fff;
   text-decoration: none;
+}
+
+#Detail .detail-content {
+  text-align: left !important;
+}
+
+#Detail img {
+  max-width: 100%;
 }
